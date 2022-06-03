@@ -1,0 +1,19 @@
+$size: 100px;
+
+body {
+  display: flex;
+  padding: 10px;
+}
+.rectangle {
+  width: $size * 2;
+  height: $size;
+}
+.circle {
+  width: $size;
+  height: $size;
+  border-radius: $size * 0.5;
+}
+.square {
+  width: $size;
+  height: $size;
+}

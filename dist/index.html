@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.min.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form id="figureForm" class="container">
+      <div class="row">
+        <div class="col-md-auto">
+          <label class="form-label sr-only">Select figure</label>
+          <select class="form-select form-select-sm" name="" id="selectFigure">
+            <option selected value="Square" class="square" name="selectFigure">
+              Square
+            </option>
+            <option value="Rectangle" class="rectangle" name="selectFigure">
+              Rectangle
+            </option>
+            <option value="Circle" class="circle" name="selectFigure">
+              Circle
+            </option>
+          </select>
+        </div>
+        <div class="col-md-auto">
+          <div
+            id="figure"
+            class="square"
+            style="background-color: #ff0000"
+          ></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-auto">
+          <label class="form-label sr-only">Select color</label>
+          <input
+            type="color"
+            class="form-control form-control-color"
+            id="color"
+            value="#ff0000"
+          />
+        </div>
+      </div>
+    </form>
+    <script src="./js/script.min.js"></script>
+  </body>
+</html>

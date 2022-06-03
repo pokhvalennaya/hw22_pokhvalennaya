@@ -1,0 +1,35 @@
+{
+  "name": "hw22_pokhvalennaya",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pokhvalennaya/hw22_pokhvalennaya.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pokhvalennaya/hw22_pokhvalennaya/issues"
+  },
+  "homepage": "https://github.com/pokhvalennaya/hw22_pokhvalennaya#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.10",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify-es": "^3.0.0",
+    "sass": "^1.52.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "install": "^0.13.0",
+    "jquery": "^3.6.0"
+  }
+}
